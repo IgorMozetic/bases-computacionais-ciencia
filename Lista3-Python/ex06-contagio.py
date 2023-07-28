@@ -15,7 +15,7 @@ while (contagemPessoas/populacao*100) < imunidade:
         print(cont)
         break
     if pessoasInfectadas != 0:
-        pessoasInfectadas = int((pessoasInfectadas*txContagio))
+        pessoasInfectadas = (pessoasInfectadas*txContagio)
         contagemPessoas += pessoasInfectadas
     else:
         pessoasInfectadas = qntDia0
